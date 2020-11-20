@@ -3,10 +3,10 @@ require "formula"
 class Openlitespeed < Formula
     desc "OpenLiteSpeed is a high-performance, lightweight, open source HTTP server developed and copyrighted by LiteSpeed Technologies. Users are free to download, use, distribute, and modify OpenLiteSpeed and its source code in accordance with the precepts of the GPLv3 license."
     homepage "https://openlitespeed.org/"
-    url "https://openlitespeed.org/packages/openlitespeed-1.4.41.src.tgz"
-    sha256 "ce5f82f4b048f7075bdc55723959924c00cda958a928c592fb129ba84b32f741"
+    url "https://github.com/litespeedtech/openlitespeed/releases/download/v1.7.6/openlitespeed-1.7.6.tgz"
+    sha256 "e3c2c9cbfc7c5d0e4589e72c0b9a37f79bcc1efb420198c904b776d115526042"
     head "https://github.com/litespeedtech/openlitespeed.git"
-    version "1.4.41"
+    version "1.7.6"
 
     option "with-luajit", "use liblua (located in directory DIR, if supplied) for compiling mod_lua module.  [default=no]"
     option "with-debug", "Enable debugging symbols (Debug is disabled by default)"
